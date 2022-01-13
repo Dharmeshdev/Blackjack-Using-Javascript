@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url('images/green.jpg');
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #d1b61f;
+
+}
+
+p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin:  20px;
+    font-weight: bold;
+    background-color: #d1b61f;
+    font-style: inherit;
+}
+
+button:hover{
+    transform: scale(0.95);
+    background-color: #ffd900;
+}
+
+#remove-card{
+    background-color: #b93f36;
+    color: white;
+}
+
+#red-text{
+    color:#b93f36;
+    /* background-color:white; */
+    font-weight: 600;
+}
+
+#note{
+    font-size: 1rem;
+    font-weight:lighter;
+    margin-top: 30px;
+}
